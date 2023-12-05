@@ -1,0 +1,43 @@
+{
+  "header": {
+    "logo": "/images/logo.svg",
+    "nav": [
+      {
+        "id": 1,
+        "link": "#",
+        "text": "Courses"
+      },
+      {
+        "id": 2,
+        "link": "#",
+        "text": "About us"
+      },
+      {
+        "id": 3,
+        "link": "#",
+        "text": "Text"
+      },
+      {
+        "id": 4,
+        "link": "#",
+        "text": "Teachers"
+      },
+      {
+        "id": 5,
+        "link": "#",
+        "text": "Pricing"
+      },
+      {
+        "id": 6,
+        "link": "#",
+        "text": "Careers"
+      },
+      {
+        "id": 7,
+        "link": "#",
+        "text": "Blog"
+      }
+    ],
+    "button": "Get started"
+  }
+}

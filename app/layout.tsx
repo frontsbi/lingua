@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { IDefaultTypes } from '@/types/defaultTypes'
 import localFont from 'next/font/local'
 import './globals.scss'
 
@@ -16,11 +17,7 @@ export const metadata: Metadata = {
   description: 'Start of the project on Next.js',
 }
 
-interface Props {
-  children: React.ReactNode
-}
-
-export default function RootLayout({ children }: Props) {
+export default function RootLayout({ children }: IDefaultTypes) {
   return (
     <html lang="en">
       <body className={ axiforma.className }>{children}</body>
