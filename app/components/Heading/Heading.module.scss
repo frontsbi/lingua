@@ -1,0 +1,23 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  color: var(--text-primary);
+  font-weight: var(--light);
+}
+
+.h1.bold,
+.h2.bold {
+  font-weight: var(--bold);
+}
+
+.h1 {
+  font-size: 56px;
+  line-height: 126%;
+}
+
+.h2 {
+  font-size: 48px;
+  line-height: 130%;
+}

@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
 import { IDefaultTypes } from '@/types/defaultTypes'
 import localFont from 'next/font/local'
-import './globals.scss'
+import '@/styles/reset.scss'
+import '@/styles/variables.scss'
+import '@/styles/globals.scss'
 
 const axiforma = localFont({
   src: '../public/fonts/Axiforma-Regular.woff2',
@@ -13,8 +15,8 @@ const axiforma = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'Start project',
-  description: 'Start of the project on Next.js',
+  title: 'Lingua',
+  description: 'Language school',
 }
 
 export default function RootLayout({ children }: IDefaultTypes) {

@@ -1,0 +1,23 @@
+.mainBanner {
+  margin-top: 29px;
+  display: grid;
+  grid-template-columns: 558px 684px;
+  column-gap: 39px;
+}
+
+.content {
+  padding-top: 89px;
+}
+
+.title {
+  margin-bottom: 19px;
+  span {
+    font-weight: var(--medium);
+    color: var(--primary-200);
+  }
+}
+
+.description {
+  max-width: 350px;
+  margin-bottom: 31px;
+}

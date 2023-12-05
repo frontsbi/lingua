@@ -1,0 +1,17 @@
+.nav {
+  .list {
+    display: flex;
+    column-gap: 24px;
+  }
+  .item {
+    padding: 6px 10px;
+  }
+  .link {
+    font-size: 14px;
+    font-weight: var(--light);
+    color: var(--body-text);
+    &:hover {
+      color: var(--black);
+    }
+  }
+}
