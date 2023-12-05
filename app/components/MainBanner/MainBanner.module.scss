@@ -1,7 +1,7 @@
-.mainBanner {
-  margin-top: 29px;
+.root {
   display: grid;
   grid-template-columns: 558px 684px;
+  margin-top: 29px;
   column-gap: 39px;
 }
 
@@ -11,9 +11,10 @@
 
 .title {
   margin-bottom: 19px;
+
   span {
-    font-weight: var(--medium);
     color: var(--primary-200);
+    font-weight: var(--medium);
   }
 }
 

@@ -1,6 +1,9 @@
 {
   "header": {
-    "logo": "/images/logo.svg",
+    "logo": {
+      "link": "/",
+      "image": "/images/logo.svg"
+    },
     "nav": [
       {
         "id": 1,
@@ -14,11 +17,6 @@
       },
       {
         "id": 3,
-        "link": "#",
-        "text": "Text"
-      },
-      {
-        "id": 4,
         "link": "#",
         "text": "Teachers"
       },

@@ -2,9 +2,9 @@ import { promises as fs } from 'fs'
 import styles from './page.module.scss'
 import Header from '@/components/Header/Header'
 import MainBanner from '@/components/MainBanner/MainBanner'
-import Section from '@/components/Section/Section'
-import Heading from '@/components/Heading/Heading'
-import SubTitle from '@/components/SubTitle/SubTitle'
+import Section from '@/ui/Section/Section'
+import Heading from '@/ui/Heading/Heading'
+import SubTitle from '@/ui/SubTitle/SubTitle'
 
 export default async function Home() {
   const file = await fs.readFile(`${ process.cwd() }/app/data/data.json`, 'utf8')

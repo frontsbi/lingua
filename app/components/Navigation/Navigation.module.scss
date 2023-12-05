@@ -3,13 +3,16 @@
     display: flex;
     column-gap: 24px;
   }
+
   .item {
     padding: 6px 10px;
   }
+
   .link {
-    font-size: 14px;
-    font-weight: var(--light);
     color: var(--body-text);
+    font-weight: var(--light);
+    font-size: 14px;
+
     &:hover {
       color: var(--black);
     }

@@ -13,11 +13,11 @@ interface Props {
 
 function Navigation({ nav }: Props) {
   return (
-    <nav className={styles.nav}>
-      <ul className={styles.list}>
+    <nav className={ styles.nav }>
+      <ul className={ styles.list }>
         {nav.map((item: INavItem) => (
-          <li key={item.id} className={styles.item}>
-            <Link className={styles.link} href={item.link}>
+          <li key={ item.id } className={ styles.item }>
+            <Link className={ styles.link } href={ item.link }>
               {item.text}
             </Link>
           </li>

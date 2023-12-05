@@ -7,7 +7,7 @@ interface Props {
 }
 
 function Section({ children, className }: Props) {
-  return <section className={cn("container", styles.section, className)}>{children}</section>
+  return <section className={ cn("container", styles.section, className) }>{children}</section>
 }
 
 export default Section
