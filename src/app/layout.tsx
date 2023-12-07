@@ -6,7 +6,7 @@ import '@/styles/variables.scss'
 import '@/styles/globals.scss'
 
 const axiforma = localFont({
-  src: '../public/fonts/Axiforma-Regular.woff2',
+  src: '../../public/fonts/Axiforma-Regular.woff2',
   weight: '400',
   style: 'normal',
   preload: true,

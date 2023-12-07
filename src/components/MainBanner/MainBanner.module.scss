@@ -1,12 +1,12 @@
 .root {
   display: grid;
   grid-template-columns: 558px 684px;
-  margin-top: 29px;
+  margin-top: 28px;
   column-gap: 39px;
 }
 
 .content {
-  padding-top: 89px;
+  padding-top: 90px;
 }
 
 .title {
@@ -21,4 +21,5 @@
 .description {
   max-width: 350px;
   margin-bottom: 31px;
+  color: var(--body-text);
 }

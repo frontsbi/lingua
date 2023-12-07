@@ -7,7 +7,7 @@ import Heading from '@/ui/Heading/Heading'
 import SubTitle from '@/ui/SubTitle/SubTitle'
 
 export default async function Home() {
-  const file = await fs.readFile(`${ process.cwd() }/app/data/data.json`, 'utf8')
+  const file = await fs.readFile(`${ process.cwd() }/src/data/data.json`, 'utf8')
   const data = JSON.parse(file)
   return (
     <main>
